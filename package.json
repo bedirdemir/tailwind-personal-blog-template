@@ -4,7 +4,7 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "watch": "npx tailwindcss -i ./src/css/input.css -o ./public/css/output.css -w --minify"
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/output.css -w --minify"
   },
   "keywords": [],
   "author": "",
