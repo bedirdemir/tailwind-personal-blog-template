@@ -1,6 +1,6 @@
 
 # Tailwind Personal Blog Template
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=bedirdemir.tailwind-personal-blog-template)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=bedirdemir.tailwind-personal-website-template)
 ![tailwind-blog-template](https://raw.githubusercontent.com/bedirdemir/tailwind-personal-website-template/main/public/img/image.jpg)
 
 This template was created with tailwind css, it consists of blog posts, bookmarks and image gallery.
@@ -18,7 +18,7 @@ or
 ### Start Dev
 
     npm run dev
-
+Read [tailwind.css docs](https://tailwindcss.com/docs/installation)
 ## Folder Structure
 ```
 ├── node_modules/        # node dependencies
