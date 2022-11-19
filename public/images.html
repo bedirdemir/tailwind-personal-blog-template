@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Tailwind Personal Website Template</title>
+    <title>Tailwind Personal Blog Template</title>
 </head>
 </style>
-<body class="max-w-6xl mx-auto">
+<body class="max-w-6xl mx-auto dark:bg-gray-900 dark:text-white">
 
     <!-- Header -->
 
-    <header class="flex justify-between items-center py-5 px-1 max-lg:px-4 border-b border-gray-200">
+    <header class="flex justify-between items-center py-5 px-1 max-lg:px-4 border-b border-gray-200 dark:border-gray-700">
         <a href="./index.html">
             <div class="flex items-center cursor-pointer space-x-4">
                 <img class="p-0.5 w-12 h-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="./img/my.jpg" alt="logo">
@@ -45,20 +45,20 @@
     <!-- Tabs -->
 
     <div class="border-b border-gray-200 dark:border-gray-700">
-        <ul class="flex overflow-auto -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
+        <ul class="flex overflow-auto -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-200">
             <li class="mr-2">
                 <a href="./index.html" class="inline-flex p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group">
-                    <svg class="mr-2 w-5 h-5 text-gray-500 group-hover:text-gray-600 dark:text-gray-500 dark:group-hover:text-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM128 416c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>Articles
+                    <svg class="mr-2 w-5 h-5 text-gray-500 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM128 416c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>Articles
                 </a>
             </li>
             <li class="mr-2">
                 <a href="./bookmarks.html" class="inline-flex p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 group" aria-current="page">
-                    <svg class="mr-2 w-5 h-5 text-gray-500 group-hover:text-gray-600 dark:text-gray-500 dark:group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M336 0h-288C21.49 0 0 21.49 0 48v431.9c0 24.7 26.79 40.08 48.12 27.64L192 423.6l143.9 83.93C357.2 519.1 384 504.6 384 479.9V48C384 21.49 362.5 0 336 0zM336 452L192 368l-144 84V54C48 50.63 50.63 48 53.1 48h276C333.4 48 336 50.63 336 54V452z"/></svg>Bookmarks
+                    <svg class="mr-2 w-5 h-5 text-gray-500 group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M336 0h-288C21.49 0 0 21.49 0 48v431.9c0 24.7 26.79 40.08 48.12 27.64L192 423.6l143.9 83.93C357.2 519.1 384 504.6 384 479.9V48C384 21.49 362.5 0 336 0zM336 452L192 368l-144 84V54C48 50.63 50.63 48 53.1 48h276C333.4 48 336 50.63 336 54V452z"/></svg>Bookmarks
                 </a>
             </li>
             <li class="mr-2">
-                <a href="./images.html" class="inline-flex p-4 text-blue-600 rounded-t-lg border-b-2 border-blue-600 active dark:text-blue-500 dark:border-blue-500 group">
-                    <svg class="mr-2 w-5 h-5 text-blue-600 dark:text-blue-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M152 120c-26.51 0-48 21.49-48 48s21.49 48 48 48s48-21.49 48-48S178.5 120 152 120zM447.1 32h-384C28.65 32-.0091 60.65-.0091 96v320c0 35.35 28.65 64 63.1 64h384c35.35 0 64-28.65 64-64V96C511.1 60.65 483.3 32 447.1 32zM463.1 409.3l-136.8-185.9C323.8 218.8 318.1 216 312 216c-6.113 0-11.82 2.768-15.21 7.379l-106.6 144.1l-37.09-46.1c-3.441-4.279-8.934-6.809-14.77-6.809c-5.842 0-11.33 2.529-14.78 6.809l-75.52 93.81c0-.0293 0 .0293 0 0L47.99 96c0-8.822 7.178-16 16-16h384c8.822 0 16 7.178 16 16V409.3z"/></svg>Images
+                <a href="./images.html" class="inline-flex p-4 text-blue-600 rounded-t-lg border-b-2 border-blue-600 active dark:text-blue-400 dark:border-blue-400 group">
+                    <svg class="mr-2 w-5 h-5 text-blue-600 dark:text-blue-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M152 120c-26.51 0-48 21.49-48 48s21.49 48 48 48s48-21.49 48-48S178.5 120 152 120zM447.1 32h-384C28.65 32-.0091 60.65-.0091 96v320c0 35.35 28.65 64 63.1 64h384c35.35 0 64-28.65 64-64V96C511.1 60.65 483.3 32 447.1 32zM463.1 409.3l-136.8-185.9C323.8 218.8 318.1 216 312 216c-6.113 0-11.82 2.768-15.21 7.379l-106.6 144.1l-37.09-46.1c-3.441-4.279-8.934-6.809-14.77-6.809c-5.842 0-11.33 2.529-14.78 6.809l-75.52 93.81c0-.0293 0 .0293 0 0L47.99 96c0-8.822 7.178-16 16-16h384c8.822 0 16 7.178 16 16V409.3z"/></svg>Images
                 </a>
             </li>
         </ul>
@@ -104,36 +104,36 @@
 
     <ul class="flex justify-center -space-x-px mt-20 mb-5">
         <li>
-          <a href="#" class="py-2 px-3 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
+          <a href="#" class="py-2 px-3 ml-0 leading-tight text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white">Previous</a>
         </li>
         <li>
-          <a href="#" aria-current="page" class="py-2 px-3 text-blue-600 bg-blue-100 border border-gray-300 hover:bg-blue-200 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white">1</a>
+          <a href="#" aria-current="page" class="py-2 px-3 text-blue-600 bg-blue-100 border border-gray-300 hover:bg-blue-200 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white">1</a>
         </li>
         <li>
-          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
+          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white">2</a>
         </li>
         <li>
-          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">3</a>
+          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white">3</a>
         </li>
         <li>
-          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">4</a>
+          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white">4</a>
         </li>
         <li>
-          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">5</a>
+          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white">5</a>
         </li>
         <li>
-          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
+          <a href="#" class="py-2 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white">Next</a>
         </li>
     </ul>
 
     <!-- Footer  -->
 
-    <footer class="border-t border-gray-200 mt-16 py-8 px-3 flex justify-between items-center max-lg:flex-col">
+    <footer class="border-t border-gray-200 dark:border-gray-700 mt-16 py-8 px-3 flex justify-between items-center max-lg:flex-col">
         <div class="flex justify-center space-x-5 max-lg:mb-7 max-lg:mt-4">
-            <a href="" class="text-sm text-gray-600">About Me</a>
-            <a href="" class="text-sm text-gray-600">Articles</a>
-            <a href="" class="text-sm text-gray-600">Bookmarks</a>
-            <a href="" class="text-sm text-gray-600">Images</a>
+            <a href="" class="text-sm text-gray-600 dark:text-gray-400">About Me</a>
+            <a href="" class="text-sm text-gray-600 dark:text-gray-400">Articles</a>
+            <a href="" class="text-sm text-gray-600 dark:text-gray-400">Bookmarks</a>
+            <a href="" class="text-sm text-gray-600 dark:text-gray-400">Images</a>
         </div>
         <div class="flex space-x-5">
             <a href="https://github.com/bedirdemir" target="_blank">
@@ -147,9 +147,15 @@
             </a>    
         </div>
     </footer>
-    <div class="border-t border-gray-200 py-3 flex justify-center">
-        <p class=" text-xs font-thin text-gray-400">© bedirdemir.com All rights reserved.</p>
+    <div class="border-t border-gray-200 dark:border-gray-700 py-3 flex justify-center">
+        <p class=" text-xs font-thin text-gray-400 dark:text-gray-300">© bedirdemir.com All rights reserved.</p>
     </div>
 
+    <!-- Dark mode button  -->
+    <div class="fixed bottom-2 right-2 lg:bottom-3 lg:right-3">
+        <button onclick="darkMode()" type="button" class="text-white border border-gray-100 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm p-3 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"><svg class="lg:w-8 w-7" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M421.6 379.9c-.6641 0-1.35 .0625-2.049 .1953c-11.24 2.143-22.37 3.17-33.32 3.17c-94.81 0-174.1-77.14-174.1-175.5c0-63.19 33.79-121.3 88.73-152.6c8.467-4.812 6.339-17.66-3.279-19.44c-11.2-2.078-29.53-3.746-40.9-3.746C132.3 31.1 32 132.2 32 256c0 123.6 100.1 224 223.8 224c69.04 0 132.1-31.45 173.8-82.93C435.3 389.1 429.1 379.9 421.6 379.9zM255.8 432C158.9 432 80 353 80 256c0-76.32 48.77-141.4 116.7-165.8C175.2 125 163.2 165.6 163.2 207.8c0 99.44 65.13 183.9 154.9 212.8C298.5 428.1 277.4 432 255.8 432z"/></svg></button>
+    </div>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>

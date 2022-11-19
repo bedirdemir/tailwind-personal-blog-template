@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Tailwind Personal Website Template</title>
+    <title>Tailwind Personal Blog Template</title>
 </head>
 </style>
-<body class="max-w-6xl mx-auto">
+<body class="max-w-6xl mx-auto dark:bg-gray-900 dark:text-white">
 
     <!-- Header -->
 
-    <header class="flex justify-between items-center py-5 px-1 max-lg:px-4 border-b border-gray-200">
+    <header class="flex justify-between items-center py-5 px-1 max-lg:px-4 border-b border-gray-200 dark:border-gray-700">
         <a href="./index.html">
             <div class="flex items-center cursor-pointer space-x-4">
                 <img class="p-0.5 w-12 h-12 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="./img/my.jpg" alt="logo">
@@ -39,7 +39,7 @@
 
     <div class="mt-8">
         <div class="max-w-2xl mx-auto">
-            <a href="./index.html"><span class="flex px-4 pb-4 items-center text-sm font-normal text-gray-400"><svg class="w-5 mr-2 text-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"/></svg>Home page</span></a>
+            <a href="./index.html"><span class="flex px-4 pb-4 items-center text-sm font-normal text-gray-400 dark:text-gray-300"><svg class="w-5 mr-2 text-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M109.3 288L480 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-370.7 0 73.4-73.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288z"/></svg>Home page</span></a>
             <article class="prose prose-zinc prose-pre:bg-gray-800 text-left mx-auto lg:prose-lg dark:prose-invert px-4">
                 <h1>This is article title</h1>
                 <img class="my-7 object-cover w-full mx-auto rounded-lg aspect-video" src="./img/post02.jpg" alt="post image">
@@ -116,56 +116,62 @@
 
     <!-- Recomments -->
 
-    <div class="border-t border-gray-200 mt-10 flex justify-center">
+    <div class="border-t border-gray-200 dark:border-gray-700 mt-10 flex justify-center">
         <div class="grid mt-12 px-5 auto-rows-max lg:grid-cols-3 md:grid-cols-2 gap-8">
         
-            <div class="flex flex-col overflow-hidden cursor-pointer max-w-sm group">
-                <div class="filter contrast-[0.9] mb-4">
-                    <img class="object-cover w-full border transition rounded-lg aspect-[16/9] group-hover:opacity-90" src="./img/post01.jpg" alt="example">
+            <a href="./article.html">
+                <div class="flex flex-col overflow-hidden cursor-pointer max-w-sm group justify-between">
+                    <div class="flex flex-col justify-between">
+                        <div class="filter contrast-[0.9] mb-4">
+                            <img class="object-cover w-full transition rounded-lg aspect-[16/9] group-hover:opacity-90" src="./img/post01.jpg" alt="example">
+                        </div>
+                        <time class="text-xs tracking-widest text-gray-400" datetime="2022-11-7">7/11/2022</time>
+                        <h1 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                        <p class="mt-3 text-sm text-gray-600 capsule dark:text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur quod laborum labore incidunt facilis corrupti rerum numquam hic cumque ducimus optio aliquid, praesentium ut et?</p>
+                    </div>
+                    <span class="flex mt-3 items-center text-sm">Read more <svg class="w-2 ml-3 dark:text-gray-100" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                 </div>
-                <div class="flex flex-col justify-between">
-                    <time class="text-xs tracking-widest text-gray-400" datetime="2022-11-7">7/11/2022</time>
-                    <h1 class="mt-2 text-lg font-semibold text-gray-900">Lorem ipsum dolor sit.</h1>
-                    <p class="mt-3 text-sm text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, optio?</p>
-                    <a class="flex mt-3 items-center" href="#">Read more <svg class="w-2 ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></a>
+            </a>
+            
+            <a href="./article.html">
+                <div class="flex flex-col overflow-hidden cursor-pointer max-w-sm group justify-between">
+                    <div class="flex flex-col justify-between">
+                        <div class="filter contrast-[0.9] mb-4">
+                            <img class="object-cover w-full transition rounded-lg aspect-[16/9] group-hover:opacity-90" src="./img/post02.jpg" alt="example">
+                        </div>
+                        <time class="text-xs tracking-widest text-gray-400" datetime="2022-11-7">7/11/2022</time>
+                        <h1 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                        <p class="mt-3 text-sm text-gray-600 capsule dark:text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur quod laborum labore incidunt facilis corrupti rerum numquam hic cumque ducimus optio aliquid, praesentium ut et?</p>
+                    </div>
+                    <span class="flex mt-3 items-center text-sm">Read more <svg class="w-2 ml-3 dark:text-gray-100" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                 </div>
-            </div>
+            </a>
     
-            <div class="flex flex-col overflow-hidden cursor-pointer max-w-sm group">
-                <div class="filter contrast-[0.9] mb-4">
-                    <img class="object-cover w-full border transition rounded-lg aspect-[16/9] group-hover:opacity-90" src="./img/post02.jpg" alt="example">
+            <a href="./article.html">
+                <div class="flex flex-col overflow-hidden cursor-pointer max-w-sm group justify-between">
+                    <div class="flex flex-col justify-between">
+                        <div class="filter contrast-[0.9] mb-4">
+                            <img class="object-cover w-full transition rounded-lg aspect-[16/9] group-hover:opacity-90" src="./img/post03.jpg" alt="example">
+                        </div>
+                        <time class="text-xs tracking-widest text-gray-400" datetime="2022-11-7">7/11/2022</time>
+                        <h1 class="mt-2 text-lg font-semibold text-gray-900 dark:text-gray-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+                        <p class="mt-3 text-sm text-gray-600 capsule dark:text-gray-300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur quod laborum labore incidunt facilis corrupti rerum numquam hic cumque ducimus optio aliquid, praesentium ut et?</p>
+                    </div>
+                    <span class="flex mt-3 items-center text-sm">Read more <svg class="w-2 ml-3 dark:text-gray-100" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                 </div>
-                <div class="flex flex-col justify-between">
-                    <time class="text-xs tracking-widest text-gray-400" datetime="2022-11-7">7/11/2022</time>
-                    <h1 class="mt-2 text-lg font-semibold text-gray-900">Lorem ipsum dolor sit.</h1>
-                    <p class="mt-3 text-sm text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, optio?</p>
-                    <a class="flex mt-3 items-center" href="#">Read more <svg class="w-2 ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></a>
-                </div>
-            </div>
-
-            <div class="flex flex-col overflow-hidden cursor-pointer max-w-sm group">
-                <div class="filter contrast-[0.9] mb-4">
-                    <img class="object-cover w-full border transition rounded-lg aspect-[16/9] group-hover:opacity-90" src="./img/post02.jpg" alt="example">
-                </div>
-                <div class="flex flex-col justify-between">
-                    <time class="text-xs tracking-widest text-gray-400" datetime="2022-11-7">7/11/2022</time>
-                    <h1 class="mt-2 text-lg font-semibold text-gray-900">Lorem ipsum dolor sit.</h1>
-                    <p class="mt-3 text-sm text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, optio?</p>
-                    <a class="flex mt-3 items-center" href="#">Read more <svg class="w-2 ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></a>
-                </div>
-            </div>
+            </a>
 
         </div>
     </div>
 
     <!-- Footer  -->
 
-    <footer class="border-t border-gray-200 mt-16 py-8 px-3 flex justify-between items-center max-lg:flex-col">
+    <footer class="border-t border-gray-200 dark:border-gray-700 mt-16 py-8 px-3 flex justify-between items-center max-lg:flex-col">
         <div class="flex justify-center space-x-5 max-lg:mb-7 max-lg:mt-4">
-            <a href="" class="text-sm text-gray-600">About Me</a>
-            <a href="" class="text-sm text-gray-600">Articles</a>
-            <a href="" class="text-sm text-gray-600">Bookmarks</a>
-            <a href="" class="text-sm text-gray-600">Images</a>
+            <a href="" class="text-sm text-gray-600 dark:text-gray-400">About Me</a>
+            <a href="" class="text-sm text-gray-600 dark:text-gray-400">Articles</a>
+            <a href="" class="text-sm text-gray-600 dark:text-gray-400">Bookmarks</a>
+            <a href="" class="text-sm text-gray-600 dark:text-gray-400">Images</a>
         </div>
         <div class="flex space-x-5">
             <a href="https://github.com/bedirdemir" target="_blank">
@@ -179,9 +185,15 @@
             </a>    
         </div>
     </footer>
-    <div class="border-t border-gray-200 py-3 flex justify-center">
-        <p class=" text-xs font-thin text-gray-400">© bedirdemir.com All rights reserved.</p>
+    <div class="border-t border-gray-200 dark:border-gray-700 py-3 flex justify-center">
+        <p class=" text-xs font-thin text-gray-400 dark:text-gray-300">© bedirdemir.com All rights reserved.</p>
     </div>
 
+    <!-- Dark mode button  -->
+    <div class="fixed bottom-2 right-2 lg:bottom-3 lg:right-3">
+        <button onclick="darkMode()" type="button" class="text-white border border-gray-100 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm p-3 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"><svg class="lg:w-8 w-7" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M421.6 379.9c-.6641 0-1.35 .0625-2.049 .1953c-11.24 2.143-22.37 3.17-33.32 3.17c-94.81 0-174.1-77.14-174.1-175.5c0-63.19 33.79-121.3 88.73-152.6c8.467-4.812 6.339-17.66-3.279-19.44c-11.2-2.078-29.53-3.746-40.9-3.746C132.3 31.1 32 132.2 32 256c0 123.6 100.1 224 223.8 224c69.04 0 132.1-31.45 173.8-82.93C435.3 389.1 429.1 379.9 421.6 379.9zM255.8 432C158.9 432 80 353 80 256c0-76.32 48.77-141.4 116.7-165.8C175.2 125 163.2 165.6 163.2 207.8c0 99.44 65.13 183.9 154.9 212.8C298.5 428.1 277.4 432 255.8 432z"/></svg></button>
+    </div>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>
