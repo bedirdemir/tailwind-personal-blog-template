@@ -24,7 +24,7 @@ Read [tailwind.css docs](https://tailwindcss.com/docs/installation)
 ├── node_modules/        # node dependencies
 ├── public/              # public files        
 ├── src/                 # source files
-└── package.json         # npm configuration file
+├── package.json         # npm configuration file
 └── tailwind.config.js   # tailwind configuration file
 ```
 ## License
